@@ -1,0 +1,5 @@
+from collections import ChainMap
+a = {1: 'manisha', 2: 'python'}
+b = {3: 'ML', 4: 'AI'}
+a1 = ChainMap(a, b)
+print(a1)

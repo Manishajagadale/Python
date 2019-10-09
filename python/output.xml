@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191001 15:46:44.477" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/user/Documents/python/strategic.robot" id="s1" name="Strategic">
+<test id="s1-t1" name="strateg-eit login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20191001 15:46:44.601" level="INFO">Opening browser 'Chrome' to base url 'http://port-epmo-11jm1ipldsws5.mism8dq2g6.us-east-1.elasticbeanstalk.com/'.</msg>
+<status status="PASS" endtime="20191001 15:46:57.115" starttime="20191001 15:46:44.601"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=username</arg>
+<arg>manishaj</arg>
+</arguments>
+<msg timestamp="20191001 15:46:57.116" level="INFO">Typing text 'manishaj' into text field 'name=username'.</msg>
+<status status="PASS" endtime="20191001 15:46:57.226" starttime="20191001 15:46:57.116"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=password</arg>
+<arg>Manishajagadale@13</arg>
+</arguments>
+<msg timestamp="20191001 15:46:57.227" level="INFO">Typing text 'Manishajagadale@13' into text field 'name=password'.</msg>
+<status status="PASS" endtime="20191001 15:46:57.362" starttime="20191001 15:46:57.226"></status>
+</kw>
+<status status="PASS" endtime="20191001 15:46:57.363" critical="yes" starttime="20191001 15:46:44.600"></status>
+</test>
+<status status="PASS" endtime="20191001 15:46:57.363" starttime="20191001 15:46:44.478"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Strategic" pass="1">Strategic</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

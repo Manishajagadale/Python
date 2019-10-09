@@ -1,0 +1,13 @@
+def getElementbyClassname(driver, by, element):
+    try:
+        swithc(by):
+            'classname':
+                return driver.find_element_by_class_name(element).click()
+            'xpath':
+                return driver.
+            'id':
+                return 
+    except:
+        if() pass
+        else raise
+
